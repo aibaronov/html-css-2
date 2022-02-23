@@ -1,0 +1,39 @@
+#bottom-bar {
+  background-color: black;
+  box-sizing: inline-block;
+  position: fixed;
+
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+}
+
+#top-bar {
+  background-color: black;
+  box-sizing: inline-block;
+  position: fixed;
+  top: 0;
+  height: 150px;
+  width: 100%;
+}
+
+#left-vertical-bar {
+  background-color: grey;
+  display: inline-block;
+  width: 200px;
+  height: 100%;
+
+  box-sizing: border-box;
+  position: fixed;
+}
+
+#right-vertical-bar {
+  background-color: grey;
+  display: inline-block;
+  right: 0;
+  width: 200px;
+  height: 100%;
+
+  box-sizing: border-box;
+  position: fixed;
+}
